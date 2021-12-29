@@ -17,7 +17,7 @@ Obtain the source code of Data Subscription SDK for go.
 - From GitHub:
 
 ```
-git clone https://github.com/EnvisionIot/edge-subscription-service-sdk-go
+git clone https://github.com/EnvisionIot/edge-subscription-service-sdk-go.git
 ```
 - From EnOS SDK Center. Click **SDK Center** from the right navigation of EnOS Console, and obtain the SDK source code by clicking the GitHub icon in the **Obtain** column.
 
@@ -26,7 +26,7 @@ You can install the SDK from source.
 ### Initialize Subscriber with Function
 ```
 import (
-	"edge-subscription-go/subscribe"
+	"github.com/edge-subscription-service-sdk-go/subscribe"
 )
 
 func main(){
@@ -48,7 +48,7 @@ func main(){
 ### Define the Message Processing Function
 ```
 import (
-	"edge-subscription-go/subscribe/record"
+	"github.com/edge-subscription-service-sdk-go/subscribe/record"
 	"fmt"
 )
 
@@ -79,8 +79,8 @@ The features supported by this SDK include:
 ### Code Sample for Consuming Subscribed Real-time Data
 ```
 import (
-	"edge-subscription-go/subscribe"
-	"edge-subscription-go/subscribe/record"
+	"github.com/edge-subscription-service-sdk-go/subscribe"
+	"github.com/edge-subscription-service-sdk-go/subscribe/record"
 	"fmt"
 )
 
@@ -112,8 +112,8 @@ func main(){
 ### Code Sample for Consuming Subscribed Alert Data
 ```
 import (
-	"edge-subscription-go/subscribe"
-	"edge-subscription-go/subscribe/alarm"
+	"github.com/edge-subscription-service-sdk-go/subscribe"
+	"github.com/edge-subscription-service-sdk-go/subscribe/alarm"
 	"fmt"
 )
 
@@ -145,8 +145,8 @@ func main(){
 ### Code Sample for Consuming Subscribed Response of Setting Points
 ```
 import (
-	"edge-subscription-go/subscribe"
-	"edge-subscription-go/subscribe/control"
+	"github.com/edge-subscription-service-sdk-go/subscribe"
+	"github.com/edge-subscription-service-sdk-go/subscribe/setpoint"
 	"fmt"
 )
 
@@ -178,8 +178,8 @@ func main(){
 ### Code Sample for Consuming Subscribed Results of Control Command
 ```
 import (
-	"edge-subscription-go/subscribe"
-	"edge-subscription-go/subscribe/control"
+	"github.com/edge-subscription-service-sdk-go/subscribe"
+	"github.com/edge-subscription-service-sdk-go/subscribe/control"
 	"fmt"
 )
 

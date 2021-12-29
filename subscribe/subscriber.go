@@ -5,13 +5,13 @@
 package subscribe
 
 import (
-	"edge-subscription-go/subscribe/alarm"
-	"edge-subscription-go/subscribe/control"
-	"edge-subscription-go/subscribe/record"
-	"edge-subscription-go/subscribe/setpoint"
-	"edge-subscription-go/utils"
 	"errors"
 	"fmt"
+	"github.com/edge-subscription-service-sdk-go/subscribe/alarm"
+	"github.com/edge-subscription-service-sdk-go/subscribe/control"
+	"github.com/edge-subscription-service-sdk-go/subscribe/record"
+	"github.com/edge-subscription-service-sdk-go/subscribe/setpoint"
+	"github.com/edge-subscription-service-sdk-go/utils"
 	"github.com/nsqio/go-nsq"
 )
 

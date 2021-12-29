@@ -1,8 +1,8 @@
 package control
 
 import (
-	"edge-subscription-go/utils"
 	"fmt"
+	"github.com/edge-subscription-service-sdk-go/utils"
 	"github.com/golang/protobuf/proto"
 	"github.com/nsqio/go-nsq"
 	"log"

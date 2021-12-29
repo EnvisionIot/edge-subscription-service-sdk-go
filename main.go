@@ -1,12 +1,12 @@
 package main
 
 import (
-	"edge-subscription-go/subscribe"
-	"edge-subscription-go/subscribe/alarm"
-	"edge-subscription-go/subscribe/control"
-	"edge-subscription-go/subscribe/record"
-	"edge-subscription-go/subscribe/setpoint"
 	"fmt"
+	"github.com/edge-subscription-service-sdk-go/subscribe"
+	"github.com/edge-subscription-service-sdk-go/subscribe/alarm"
+	"github.com/edge-subscription-service-sdk-go/subscribe/control"
+	"github.com/edge-subscription-service-sdk-go/subscribe/record"
+	"github.com/edge-subscription-service-sdk-go/subscribe/setpoint"
 )
 
 func main() {

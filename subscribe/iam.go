@@ -3,9 +3,9 @@ package subscribe
 import (
 	"bytes"
 	"crypto/sha256"
-	"edge-subscription-go/utils"
 	"encoding/hex"
 	"encoding/json"
+	"github.com/edge-subscription-service-sdk-go/utils"
 	"io/ioutil"
 	"net"
 	"net/http"
