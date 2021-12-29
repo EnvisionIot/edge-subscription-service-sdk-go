@@ -1,0 +1,43 @@
+syntax = "proto2";
+package alarmdata;
+
+option java_package = "com.protobuf.generated";
+option java_outer_classname = "AlarmData";
+option java_multiple_files = false;
+
+message AlarmRecord
+{
+  required string eventId = 1;
+  required string ouId = 2; 
+  required string modelId = 3;
+  required string modelPath = 4;
+  required string assetId = 5;
+  required string pointId = 6;
+  required string ruleId = 7;
+  required string value = 8;
+  required string serverityId = 9;
+  required string serverityDesc = 10;
+  required string typeId = 11;
+  required string typeDesc = 12;
+  required string subTypeId = 13;
+  required string subTypeDesc = 14;
+  required string contentId = 15;
+  required string contentDesc = 16;
+  required string ruleDesc = 17;
+  required string tag = 18;
+  required int32 eventType = 19;
+  required int64 occurTime = 20;
+  required int64 creatTime = 21;
+  required string localOccurTime = 22;
+  required int64 updateTime = 23;
+  optional int64 recoverTime = 24;
+  optional string recoverLocalTime = 25;
+  optional string recoverReason = 26;
+  repeated string assetPath = 27;
+  repeated string maskedBy = 28;
+}
+
+message AlarmRecords
+{
+    repeated AlarmRecord points = 1;
+}

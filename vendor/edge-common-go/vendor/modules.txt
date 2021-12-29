@@ -1,0 +1,31 @@
+# github.com/garyburd/redigo v1.6.2
+github.com/garyburd/redigo/redis
+github.com/garyburd/redigo/internal
+# github.com/go-basic/uuid v1.0.0
+github.com/go-basic/uuid
+# github.com/golang/snappy v0.0.1
+github.com/golang/snappy
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/lestrrat-go/file-rotatelogs v2.2.0+incompatible
+github.com/lestrrat-go/file-rotatelogs
+github.com/lestrrat-go/file-rotatelogs/internal/option
+# github.com/lestrrat-go/strftime v1.0.3
+github.com/lestrrat-go/strftime
+# github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
+github.com/mohae/deepcopy
+# github.com/nsqio/go-nsq v1.0.8
+github.com/nsqio/go-nsq
+# github.com/pkg/errors v0.9.1
+github.com/pkg/errors
+# github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
+github.com/rifflock/lfshook
+# github.com/sirupsen/logrus v1.2.0
+github.com/sirupsen/logrus
+# github.com/spf13/cast v1.3.1
+github.com/spf13/cast
+# golang.org/x/crypto v0.0.0-20180904163835-0709b304e793
+golang.org/x/crypto/ssh/terminal
+# golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33
+golang.org/x/sys/unix
+golang.org/x/sys/windows

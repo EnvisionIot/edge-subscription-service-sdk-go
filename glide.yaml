@@ -1,0 +1,11 @@
+package: edge-subscription-go
+import:
+- package: github.com/golang/protobuf
+  version: 0feb819d4c08ab52e806214b23d673001bd9fe3e
+  subpackages:
+  - proto
+- package: github.com/nsqio/go-nsq
+  version: 61f49c096d0d767be61e4de06f724e1cb5fd85d7
+- package: edge-common-go
+  version: 8d172f2da720fd385723005eb98ad7d3aac22f36
+- package: log
